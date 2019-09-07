@@ -62,6 +62,7 @@ int main(void) {
     /* Enter an infinite loop, just incrementing a counter. */
     while(1) {
         i++ ;
+        i=7;
     }
     return 0 ;
 }
