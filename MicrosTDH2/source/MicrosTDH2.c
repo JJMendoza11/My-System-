@@ -61,8 +61,12 @@ int main(void) {
     volatile static int i = 0 ;
     /* Enter an infinite loop, just incrementing a counter. */
     while(1) {
+<<<<<<< HEAD
         i++ ;
         i=7;
+=======
+        i+=1 ;
+>>>>>>> master
     }
     return 0 ;
 }
